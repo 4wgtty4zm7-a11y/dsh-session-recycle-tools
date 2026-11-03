@@ -31,11 +31,11 @@
   "author": "Unintended",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Unintendedz/dsh-session-recycle-tools.git"
+    "url": "git+https://github.com/4wgtty4zm7-a11y/dsh-session-recycle-tools.git"
   },
-  "homepage": "https://github.com/Unintendedz/dsh-session-recycle-tools#readme",
+  "homepage": "https://github.com/4wgtty4zm7-a11y/dsh-session-recycle-tools#readme",
   "bugs": {
-    "url": "https://github.com/Unintendedz/dsh-session-recycle-tools/issues"
+    "url": "https://github.com/4wgtty4zm7-a11y/dsh-session-recycle-tools/issues"
   },
   "license": "MIT",
   "dsh": {

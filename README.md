@@ -77,7 +77,7 @@ Both dialogs are 1240px wide and follow the application body text: 20px title, 1
 ## Install
 
 ```sh
-dsh plugin --profile web add github:Unintendedz/dsh-session-recycle-tools
+dsh plugin --profile web add github:4wgtty4zm7-a11y/dsh-session-recycle-tools
 ```
 
 Then restart the running DSH web service. No host tool, route, or configuration is added.
