@@ -1,0 +1,62 @@
+{
+  "name": "dsh-session-recycle-tools",
+  "version": "0.1.0",
+  "description": "Two sidebar entries above the settings row: a batch picker that moves sessions into a plugin-owned recycle bin, and a recycle bin that restores or permanently deletes them. Independent of the host archive.",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": {
+      "default": "./lib/index.js"
+    },
+    "./client": "./client.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib",
+    "client.js",
+    "cordis.patch.yml",
+    "README.md",
+    "README.zh.md",
+    "screenshots.json"
+  ],
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "dsh-bundle",
+    "session",
+    "recycle-bin",
+    "sidebar"
+  ],
+  "author": "Unintended",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Unintendedz/dsh-session-recycle-tools.git"
+  },
+  "homepage": "https://github.com/Unintendedz/dsh-session-recycle-tools#readme",
+  "bugs": {
+    "url": "https://github.com/Unintendedz/dsh-session-recycle-tools/issues"
+  },
+  "license": "MIT",
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": [
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-ui-slots",
+        "@deepseek-ai/dsh-client-ui-primitives",
+        "@deepseek-ai/dsh-client-ui-sidebar"
+      ]
+    },
+    "manifestVersion": 1
+  },
+  "peerDependencies": {
+    "@deepseek-ai/cordis": "~4.0.5"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

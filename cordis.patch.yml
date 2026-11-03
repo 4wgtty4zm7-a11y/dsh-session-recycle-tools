@@ -1,0 +1,8 @@
+# dsh-session-recycle-tools bundle patch
+#
+# 装上插件后由 dsh 的 bundle 层合并这一行，即可把宿主半侧的插件行挂上。
+# 客户端半侧（client.js → 侧边栏底部两个按键）由 dsh-client-modules 依据
+# package.json 的 dsh.client 声明自动供给，不需要额外接线。
+- insert:
+    - id: dsh-session-recycle-tools
+      name: 'dsh-session-recycle-tools'
